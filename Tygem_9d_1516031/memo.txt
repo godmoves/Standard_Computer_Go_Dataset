@@ -1,0 +1,4 @@
+To convert the Tygem file into .sgf
+
+make
+./ty_all.sh

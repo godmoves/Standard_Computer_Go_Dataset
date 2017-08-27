@@ -13,4 +13,5 @@ Both `Professional_73552-2` and `Professional_82000-1` contains games played by 
 
 ## Tygem
 `Tygem_9d_1516031` contains 1516031 games played by Tygem 9d.  
-Files from Tygem are not in the stanfard sgf from, you can use the tool in it to convert the games into `.sgf`. (Please unzip the index file and Kufi file before using the converter.)
+Files from Tygem are not in the stanfard sgf from, you can use the tool in it to convert the games into `.sgf`.   
+(Please unzip the index file and Kifu file before using the converter.)
