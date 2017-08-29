@@ -88,7 +88,7 @@ int main(int argc, char *argv[])
 		sprintf(filename,"%04d/%04d%06d.sgf",year,year,lines);
 		FILE *fp_out = fopen(filename,"w");
 		if ( fp_out==NULL ) { printf("fp_out err=%s\n",filename); exit(0); }
-		fprintf(fp_out,"(;GM[1]\nKM[6.5]\nRU[Japanese]\nGN[%s]\nPW[%s]\nPB[%s]\nRE[%s]\n",id,w1,b1,result);
+		fprintf(fp_out,"(;GM[1]\nSZ[19]\nKM[6.5]\nRU[Japanese]\nGN[%s]\nPW[%s]\nPB[%s]\nRE[%s]\n",id,w1,b1,result);
 		date[5]='-';
 		date[8]='-';
 		fprintf(fp_out,"DT[%s]\nEV[%s,%s,%s,%s,%s]\n",&date[1],wn,bn,moves,round,byo);
